@@ -46,11 +46,15 @@ h1, h2, h3 {
   font-weight: 300;
 }
 
-.fav-blog {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
-  font-weight: 500;
+.fav-header {
+  font-family: 'Lato', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
   color: #7d7d7d;
+}
+
+.fav-blog {
+  text-align: center;
 }
 
 #selfintro{
@@ -67,16 +71,18 @@ h1, h2, h3 {
   text-decoration: none;
   padding: 0 20px;
   color: #7d7d7d;
+  text-align: center;
 }
 
 .blog-desc {
   font-family: 'Open Sans', sans-serif;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 300;
   padding: 0 20px;
   line-height: 1.4;
-  text-align: justify;
+  text-align: center;
   color: #7d7d7d;
+  letter-spacing: 0.8px;
 }
 
 .btn-green {
@@ -84,6 +90,7 @@ h1, h2, h3 {
   border: none;
   color: white;
   padding: 13px 20px;
+  margin-bottom: 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -114,7 +121,7 @@ a:hover{
   margin: 30px auto;
   width: 80% ;
   background-color: white;
-  padding: 40px;
+  padding: 20px 40px 20px 40px;
   padding-top: 20px;
   margin-bottom: 15px;
   border-radius: 4px;
@@ -125,9 +132,10 @@ a:hover{
 }
 
 .blogpic {
-  max-width: 200px;
-  height: auto;
+  max-height: 270px;
+  width: auto;
   padding-top: 20px;
+  margin: auto;
 }
 
 ul {
@@ -145,7 +153,8 @@ li {
 }
 
 .social-media {
-  padding-bottom: 15px;
+  font-family: 'Lato';
+  font-weight: 300;
 }
 
 a {
@@ -154,9 +163,9 @@ a {
 }
 
 #footer-title {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
-  font-weight: 300;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
   color: #7d7d7d;
   padding: 0.1px;
 }
@@ -186,11 +195,13 @@ a {
 
 #sidebar li {
   padding: 25px;
-  font-size: 25px;
 }
 
 #sidebar i {
-  color: #7d7d7d;
+  color: #788187;
+  font-size: 25px;
+  display: block;
+  margin-bottom: 10px;
 }
 
 #sidebar i:hover {

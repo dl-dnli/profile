@@ -13,9 +13,9 @@
 <body>
   <div id="sidebar">
     <ul>
-      <li class="sidebar-icon"><a href="#information" ><i class="fa fa-info-circle"></i></a></li><br>
-      <li class="sidebar-icon"><a href="#favourite-blogs"><i class="fa fa-blogger-b"></i></a></li><br>
-      <li class="sidebar-icon"><a href="#about"><i class="fa fa-elementor"></i></a></li><br>
+      <li class="sidebar-icon"><a href="#information" ><i class="fas fa-user-circle"></i></a></li><br>
+      <li class="sidebar-icon"><a href="#favourite-blogs"><i class="fa fa-star"></i></a></li><br>
+      <li class="sidebar-icon"><a href="#about"><i class="fas fa-paper-plane"></i></a></li><br>
     </ul>
   </div>
   <div id="page-content">
@@ -24,55 +24,48 @@
     <h1 id="name">Dan Li</h1>
     <h2 id="job">Programmer in Progress</h2>
     <p id="selfintro">After 3 years in financial markets, I got bored and decided to dig into the tech world.</p>
-    <a href='http://dn-li.com/', target="_blank" class = "btn-green">See for yourself</a>
+    <a href='http://dn-li.com/', target="_blank" class = "btn-green">Website</a>
+    <ul>
+      <li><a href="" class="social-media"><i class="fa fa-facebook"></i><br>facebook</a></li>
+      <li><a href="" class="social-media"><i class="fa fa-pinterest"></i><br>pinterest</a></li>
+      <li><a href="" class="social-media"><i class="fa fa-instagram"></i><br>instagram</a></li>
+    </ul>
   </div>
 
-  <div class="card text-center social-media">
+  <!-- <div class="card text-center social-media">
     <ul>
       <li><a href=""><i class="fa fa-facebook"></i><br>Facebook</a></li>
       <li><a href=""><i class="fa fa-pinterest"></i><br>Facebook</a></li>
       <li><a href=""><i class="fa fa-instagram"></i><br>Instagram</a></li>
     </ul>
-  </div>
+  </div> -->
 
-  <div class="card" id="favourite-blogs">
-    <h2 class = "text-center fav-blog">My Favourite Blogs</h2>
+  <div class="card">
+    <h2 class = "text-center fav-header">My Favourite Blogs</h2>
 
     <table>
-      <tbody>
+      <tbody class="center-table">
         <tr>
-          <td>
+          <td class="fav-blog">
             <img class="blogpic" src="images/apercujournal.jpg" alt="apercujournal">
           </td>
-          <td>
-            <h3><a href="https://readcereal.com/", target="_blank" class="blog-title">Aperçu</a></h3>
-            <p class="blog-desc">Aperçu is a digital digest focusing on travel, design, and style through a modern and elegant lens.</p>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-
-    <table>
-      <tbody>
-        <tr>
-          <td>
+          <td class="fav-blog">
             <img class="blogpic" src="images/cereal.jpg" alt="cereal">
           </td>
-          <td>
-            <h3><a href="http://www.hug-you.com/", target="_blank" class="blog-title">Cereal</a></h3>
-            <p class="blog-desc">Cereal is a quarterly travel and lifestyle publication that takes great inspiration from classic books.</p>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-
-    <table>
-      <tbody>
-        <tr>
-          <td>
+          <td class="fav-blog">
             <img class="blogpic" src="images/hugyou.jpg" alt="hugyou">
           </td>
-          <td>
+        </tr>
+        <tr>
+          <td class="fav-blog">
+            <h3><a href="http://apercujournal.com/", target="_blank" class="blog-title">Aperçu</a></h3>
+            <p class="blog-desc">Aperçu is a digital digest focusing on travel, design, and style through a modern and elegant lens.</p>
+          </td>
+          <td class="fav-blog">
+            <h3><a href="http://www.readcereal.com/", target="_blank" class="blog-title">Cereal</a></h3>
+            <p class="blog-desc">Cereal is a quarterly travel and lifestyle publication that takes great inspiration from classic books.</p>
+          </td>
+          <td class="fav-blog">
             <h3><a href="http://www.hug-you.com/", target="_blank" class="blog-title">Hug-You</a></h3>
             <p class="blog-desc">Hug-You Run by Sylvia Haghjoo, her Hug-You blog has a grittier, European fashion aesthetic.</p>
           </td>
